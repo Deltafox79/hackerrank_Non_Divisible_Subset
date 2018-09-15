@@ -6,11 +6,10 @@ namespace Not_Divisible
     {
         //Non-Divisible Subsets Problem - Solution By DeltaFoX aka Russo Paolo Rito
         static void Main(string[] args)
-        {
-            
+        {            
             Console.WriteLine("Enter the string array divided by space example (1 7 2 4) :\n");
             string[] nd = Console.ReadLine().Trim().Split(' ');
-            //Se Input è minore di 1 Esco dal Soft
+            //Se Input è minore o uguale a 1 Esco dal Soft
             if (nd.Length <= 1)
                 Environment.Exit(0);
             //Converto l'intero array di stringa dato in input in int
